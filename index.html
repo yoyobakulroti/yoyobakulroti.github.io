@@ -2,94 +2,33 @@
 <html lang="id">
 <head>
   <meta name="google-site-verification" content="zcN1CSbkUIel6snm5GurZ6jU59Kn9ITlUHcOD5FRiqc" />
-  <meta charset="UTF-8">
-  <title>Yoyo Suwaryo | Documenter Story Bakul Roti</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO UTAMA -->
+    <title>Yoyo Suwaryo | Documenter Story Bakul Roti</title>
+    <meta name="description" content="Website resmi Yoyo Suwaryo. Seorang Bakul Roti dan Documenter Story yang merekam sisi humanis kehidupan sehari-hari dan kesederhanaan.">
+    <meta name="keywords" content="Yoyo Suwaryo, Bakul Roti, Documenter Story, Kehidupan Sederhana, Fotografi Humanis">
+    <meta name="author" content="Yoyo Suwaryo">
+    <meta name="robots" content="index, follow">
 
-  <!-- SEO GOOGLE -->
-  <meta name="description" content="Yoyo Suwaryo, dikenal sebagai Yoyo Bakul Roti, berbagi cerita sederhana dan jujur melalui Facebook." />
-  <meta name="keywords" content="Yoyo Bakul Roti, Yoyo Suwaryo, bakul roti desa, cerita harian, Facebook Pro" />
-  <meta name="author" content="Yoyo Suwaryo" />
-  <meta name="robots" content="index, follow" />
+    <!-- OPEN GRAPH (Untuk tampilan saat share di FB/WA) -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Yoyo Suwaryo - Cerita Bakul Roti">
+    <meta property="og:description" content="Membangun hidup dari roti, merekam makna dari cerita sederhana.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop">
+    <meta property="og:url" content="https://yoyobakulroti.github.io">
 
-  <!-- RESPONSIVE -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON (Icon tab browser) -->
+    <link rel="icon" href="yoyo-suwaryo-bakul-roti.png" type="image/png">
 
-  <!-- OPEN GRAPH -->
-  <meta property="og:title" content="Yoyo Suwaryo Bakul Roti">
-  <meta property="og:description" content="Cerita sederhana dari desa. Selengkapnya ada di Facebook.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://yoyobakulroti.github.io/">
-  <meta property="og:image" content="https://yoyobakulroti.github.io/yoyo-suwaryo-bakul-roti.jpg">
+    <!-- FONT GOOGLE (Merriweather untuk kesan story, Inter untuk modern) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-  <!-- FAVICON -->
-  <link rel="icon" href="yoyo-suwaryo-bakul-roti.png" type="image/png">
-
-  <!-- STYLE -->
-  <style>
-    body {
-      margin: 0;
-      font-family: system-ui, sans-serif;
-      background: #fafafa;
-      color: #222;
-    }
-    .wrap {
-      max-width: 760px;
-      margin: auto;
-      padding: 28px;
-    }
-    header {
-      text-align: center;
-    }
-    header img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid #e0e0e0;
-    }
-    h1 {
-      margin: 16px 0 8px;
-      font-size: 28px;
-    }
-    .tagline {
-      color: #555;
-      font-size: 16px;
-    }
-    .cta {
-      margin-top: 22px;
-    }
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      background: #1877f2;
-      color: #fff;
-      padding: 14px 22px;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    section {
-      margin-top: 42px;
-    }
-    section h2 {
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-    section p {
-      color: #444;
-      line-height: 1.7;
-    }
-    footer {
-      margin-top: 60px;
-      text-align: center;
-      font-size: 14px;
-      color: #777;
-    }
-  </style>
-
-  <!-- SCHEMA PERSON -->
-<script type="application/ld+json">
+    <!-- SCHEMA.ORG JSON-LD (Kunci SEO Personal Branding) -->
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
@@ -133,89 +72,334 @@
 }
 </script>
 
-<!-- SCHEMA WEBSITE -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://yoyobakulroti.github.io/#website",
-  "name": "Portofolio Yoyo Suwaryo | Bakul Roti",
-  "url": "https://yoyobakulroti.github.io/",
-  "description": "Portofolio dan dokumentasi digital Yoyo Suwaryo Bakul Roti.",
-  "publisher": {
-    "@type": "Person",
-    "@id": "https://yoyobakulroti.github.io/#person"
-  },
-  "inLanguage": "id-ID"
-}
-</script>
+    <style>
+        /* CSS VARIABLES */
+        :root {
+            --bg-color: #fcfbf9; /* Putih Gading */
+            --text-main: #2d3436; /* Hitam Arang */
+            --text-muted: #636e72;
+            --accent-color: #d35400; /* Warna Roti Matang */
+            --accent-light: #fbeee6;
+            --border-color: #dfe6e9;
+            --font-heading: 'Merriweather', serif;
+            --font-body: 'Inter', sans-serif;
+            --container-width: 800px;
+        }
 
-  
+        /* RESET & BASE */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-body);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a { text-decoration: none; color: inherit; transition: 0.3s; }
+        ul { list-style: none; }
+        img { max-width: 100%; height: auto; display: block; }
+
+        /* UTILITIES */
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .text-center { text-align: center; }
+        .section-padding { padding: 60px 0; }
+        
+        h1, h2, h3 { font-family: var(--font-heading); color: var(--text-main); margin-bottom: 1rem; }
+        p { color: var(--text-muted); margin-bottom: 1.5rem; }
+
+        /* HEADER */
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            background: rgba(252, 251, 249, 0.95);
+            backdrop-filter: blur(5px);
+            z-index: 100;
+        }
+        .nav-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { font-weight: 700; font-size: 1.2rem; font-family: var(--font-heading); }
+        .logo span { color: var(--accent-color); }
+        
+        /* HERO SECTION */
+        .hero {
+            text-align: center;
+            padding: 80px 0 40px;
+        }
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 20px;
+            border: 4px solid var(--accent-light);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .role-badge {
+            display: inline-block;
+            background: var(--accent-light);
+            color: var(--accent-color);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .hero-bio { font-size: 1.1rem; max-width: 600px; margin: 0 auto 30px; }
+        
+        .cta-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 24px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        .btn-primary {
+            background-color: var(--text-main);
+            color: white;
+        }
+        .btn-primary:hover { background-color: var(--accent-color); }
+        .btn-outline {
+            border: 1px solid var(--border-color);
+            background: white;
+        }
+        .btn-outline:hover { border-color: var(--text-main); }
+
+        /* ABOUT SECTION */
+        .about-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            margin-top: 20px;
+        }
+        .quote {
+            font-style: italic;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            margin: 20px 0;
+            color: var(--text-main);
+        }
+
+        /* GALLERY GRID */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery-item {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #eee;
+            aspect-ratio: 1/1;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+        .gallery-item:hover img { transform: scale(1.05); }
+
+        /* FOOTPRINT / LINKS */
+        .link-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .link-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+        }
+        .link-item:hover {
+            border-color: var(--accent-color);
+            transform: translateY(-2px);
+        }
+        .link-icon {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--accent-light);
+            color: var(--accent-color);
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .link-info h3 { margin: 0; font-size: 1rem; font-family: var(--font-body); font-weight: 600; }
+        .link-info p { margin: 0; font-size: 0.85rem; }
+
+        /* FOOTER */
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding: 30px 0;
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        /* ICONS SVG */
+        svg { width: 20px; height: 20px; fill: currentColor; }
+
+        /* RESPONSIVE */
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+            .container { width: 100%; padding: 0 15px; }
+            .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
 </head>
-
 <body>
-  <main class="wrap">
-    <header>
-      <img src="yoyo-suwaryo-bakul-roti.jpg" alt="Yoyo Suwaryo - Yoyo Bakul Roti">
-      <h1>Yoyo Suwaryo | Bakul Roti</h1>
-      <p class="tagline">
-        Documenter Story
-      </p>
 
-      <div class="cta">
-        <a class="btn" href="https://www.facebook.com/yoyobakulroti" target="_blank">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
-            <path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9v-2.9h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.5v1.8h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/>
-          </svg>
-          Kunjungi Facebook
-        </a>
-      </div>
+    <!-- NAVIGASI -->
+    <header>
+        <div class="container nav-flex">
+            <a href="#" class="logo">Yoyo Bakul Roti<span>.</span></a>
+            <a href="https://wa.me/6281221173880" class="btn btn-outline" style="padding: 6px 14px; font-size: 0.8rem;">Kontak</a>
+        </div>
     </header>
 
-    <section>
-      <hr style="height:1px;background:#e5e5e5;border:0;margin:48px 0;">
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero container">
+            <!-- GANTI URL GAMBAR INI DENGAN FOTO ASLI ANDA -->
+            <img src="yoyo-suwaryo-bakul-roti.jpg" 
+                 alt="Wajah Yoyo Suwaryo - Bakul Roti" 
+                 class="profile-img"
+                 width="180" height="180">
+            
+            <div class="role-badge">Documenter Story Bakul Roti</div>
+            <h1>Yoyo Suwaryo</h1>
+            <p class="hero-bio">
+                Menjalani hari sebagai pengantar roti, mencatat cerita sebagai pengingat diri. 
+                Melayani titip warung dengan hati, mendokumentasikan kehidupan sederhana apa adanya.
+            </p>
+            
+            <div class="cta-group">
+                <a href="#jejak-digital" class="btn btn-primary">Documenter</a>
+                <a href="#tentang" class="btn btn-outline">Tentang Saya</a>
+            </div>
+        </section>
 
-      <h2>About</h2>
-      <p>
-        Yoyo Suwaryo adalah bakul roti titip warung yang menjalani keseharian sederhana di desa. Aktivitas menata, mengantar, dan menitipkan roti menjadi bagian dari rutinitas yang terus dijalani dengan sabar dan konsisten.
-      </p>
-      <p>
-        Melalui pendekatan documenter story, Yoyo Suwaryo mendokumentasikan kehidupan apa adanya. Cerita yang dibagikan lahir dari proses sehari-hari, tanpa dilebihkan, sebagai catatan kecil tentang kerja, kesederhanaan, dan perjalanan hidup seorang bakul roti.
-      </p>
-        
-      <p></p>
-      <hr style="height:1px;background:#e5e5e5;border:0;margin:48px 0;">
+        <!-- TENTANG SAYA -->
+        <section id="tentang" class="container section-padding">
+            <div class="about-card">
+                <h2>Tentang Perjalanan Ini</h2>
+                <div class="quote">
+                    "Bukan tentang seberapa jauh kita pergi, tapi seberapa dalam kita memaknai setiap perjumpaan di warung-warung kecil."
+                </div>
+                <p>
+                    Halo, saya Yoyo bakul roti titip warung yang menjalani keseharian sederhana di desa. Aktivitas menata, mengantar, dan menitipkan roti menjadi bagian dari rutinitas yang terus dijalani setiap hari.
+                </p>
+                <p>
+                    Di sela-sela rutinitas "titip-laku-bayar", saya menyempatkan diri untuk memotret dan menulis. 
+                    Blog dan media sosial saya bukan berisi kemewahan, melainkan arsip digital tentang nafas kehidupan desa, 
+                    perjuangan pedagang kecil, dan hangatnya berinteraksi.
+                </p>
+            </div>
+        </section>
+<hr style="height:1px;background:#e5e5e5;border:0;margin:48px 0;">
 
+        <!-- GALERI FOTO (GOOGLE IMAGES OPTIMIZED) -->
+        <section id="galeri" class="container section-padding">
+            <h2>Dokumentasi Visual</h2>
+            <p>Potret Yoyo Suwaryo | Bakul Roti.</p>
+            
+            <div class="gallery-grid">
+                <!-- Image 1 -->
+                <div class="gallery-item">
+                    <img src="yoyo-suwaryo-bakul-roti-menata.jpg" 
+                         alt="Yoyo Suwaryo sedang menata roti dipagi hari" loading="lazy">
+                </div>
+                <!-- Image 2 -->
+                <div class="gallery-item">
+                    <img src="yoyo-suwaryo-bakul-roti-bersama-rekan.jpg" 
+                         alt="Suasana pagi di tempat Yoyo Suwaryo bersama rekan sebelum berjualan " loading="lazy">
+                </div>
+                <!-- Image 3 -->
+                <div class="gallery-item">
+                    <img src="yoyo-suwaryo-bakul-roti-siap-beraktivitas.jpg" 
+                         alt="Yoyo Suwaryo siap beraktivitas mengantar roti" loading="lazy">
+                </div>
+                <!-- Image 4 -->
+                <div class="gallery-item">
+                    <img src="yoyo-suwaryo-bakul-roti-mengecek-barang.jpg" 
+                         alt="Catatan harian Yoyo Suwaryo Bakul Roti" loading="lazy">
+                </div>
+            </div>
+        </section>
+<hr style="height:1px;background:#e5e5e5;border:0;margin:48px 0;">
 
-          <!-- Tombol ke Blogspot -->
-<div style="text-align:center; margin:30px 0;">
-  <a href="https://yoyobakulroti.blogspot.com/"
-     target="_blank"
-     rel="noopener noreferrer"
-     aria-label="Baca cerita Yoyo Suwaryo di Blogspot"
-     style="
-       display:inline-block;
-       padding:14px 26px;
-       background:#222;
-       color:#fff;
-       text-decoration:none;
-       font-size:16px;
-       font-weight:500;
-       border-radius:8px;
-       transition:all 0.3s ease;
-     "
-     onmouseover="this.style.background='#000'"
-     onmouseout="this.style.background='#222'">
-     
-     Baca Cerita di Blog
-  </a>
-</div>
-      
-    </section>
+        <!-- JEJAK DIGITAL -->
+        <section id="jejak-digital" class="container section-padding">
+            <h2>Jejak Digital</h2>
+            <p>Temukan tulisan dan aktivitas saya di platform lain.</p>
+            
+            <div class="link-list">
+                <!-- Facebook -->
+                <a href="https://facebook.com/yoyobakulroti" target="_blank" class="link-item">
+                    <div class="link-icon">
+                        <!-- SVG Facebook -->
+                        <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </div>
+                    <div class="link-info">
+                        <h3>Facebook</h3>
+                        <p>Interaksi harian dan album foto sederhana.</p>
+                    </div>
+                </a>
 
-    <footer>
-      © 2026 Yoyo Suwaryo | Bakul Roti
+                <!-- Blogspot -->
+                <a href="https://yoyobakulroti.blogspot.com" target="_blank" class="link-item">
+                    <div class="link-icon">
+                         <!-- SVG Edit/Blog -->
+                         <svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                    </div>
+                    <div class="link-info">
+                        <h3>Blogspot</h3>
+                        <p>Catatan panjang, opini, dan cerita perjalanan roti.</p>
+                    </div>
+                </a>
+        </section>
+    </main>
+<p></p>
+    <footer class="text-center container"><p></p>
+        <p>&copy; 2026 Yoyo Suwaryo | Bakul Roti</p>
     </footer>
-  </main>
+
+    <!-- SCRIPT SEDERHANA UNTUK SMOOTH SCROLL -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
