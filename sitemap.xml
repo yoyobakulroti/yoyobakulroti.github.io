@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-
+<urlset xmlns="http://www.sitemaps.org">
+  <!-- Halaman Utama -->
   <url>
-    <loc>https://yoyobakulroti.github.io/</loc>
+    <loc>https://yoyobakulroti.github.io</loc>
     <lastmod>2026-01-20</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <changefreq>daily</changefreq>
   </url>
-
+  <!-- Contoh Halaman Lain (Ubah sesuai link Anda) -->
+  <url>
+    <loc>https://yoyobakulroti.github.ioproduk.html</loc>
+    <lastmod>2026-01-20</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
