@@ -7,7 +7,8 @@
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
   </url>
-  <!-- Contoh Halaman Lain (Ubah sesuai link Anda) -->
+  
+  <!-- Halaman Produk (Perhatikan tanda garis miring / sebelum nama file) -->
   <url>
     <loc>https://yoyobakulroti.github.ioproduk.html</loc>
     <lastmod>2026-01-20</lastmod>
